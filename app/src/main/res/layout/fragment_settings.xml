@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".presentation.settings.SettingsFragment">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_language"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:drawableEnd="@drawable/ic_next"
+        android:gravity="start"
+        android:padding="24dp"
+        android:text="@string/language"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        app:cornerRadius="8dp"
+        app:strokeColor="@color/blue"
+        app:strokeWidth="1dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_theme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="16dp"
+        android:backgroundTint="@color/white"
+        android:drawableEnd="@drawable/ic_next"
+        android:gravity="start"
+        android:padding="24dp"
+        android:text="@string/theme"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        app:cornerRadius="8dp"
+        app:strokeColor="@color/blue"
+        app:strokeWidth="1dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_clear_history"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:drawableEnd="@drawable/ic_next"
+        android:gravity="start"
+        android:padding="24dp"
+        android:text="@string/clear_history"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        app:cornerRadius="8dp"
+        app:strokeColor="@color/blue"
+        app:strokeWidth="1dp" />
+
+</LinearLayout>
